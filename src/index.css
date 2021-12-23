@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.none {
+  display: none;
+}
+
+body {
+  background: rgba(0, 102, 255, 0.38);
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+.article {
+  background: #fff;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  /* width: 800px; */
+  margin: 25px 0;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 10px 15px;
+}
+
+.news__title {
+  text-decoration: underline;
+  color: #007ddc;
+  margin-left: 20px;
+  text-align: center;
+}
+.news__count {
+  margin: 20px 20px;
+  text-align: right;
+  display: block;
+}
+.news__img {
+  width: 50%;
+  margin: 10px 5px;
+}
+.h3 {
+  /* width: 800px; */
+  margin: 20px 0;
+  text-align: center;
+}
+
